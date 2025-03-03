@@ -1,0 +1,29 @@
+{
+  "name": "ai-agent-onchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "moralis": "^2.27.2",
+    "openai": "^4.85.4",
+    "readline": "^1.3.0",
+    "typescript": "^5.7.3",
+    "viem": "^2.23.5"
+  },
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.27.2",
+    "@moralisweb3/core": "^2.7.4",
+    "@moralisweb3/evm-api": "^2.27.2",
+    "dotenv": "^16.4.7",
+    "gemini-api": "^2.0.4"
+  }
+}
