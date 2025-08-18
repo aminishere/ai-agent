@@ -1,3 +1,3 @@
 # ai-agent
 
-![Logo](./open%ai%assitant.svg)
+![Logo](./assistant.svg)
